@@ -3,7 +3,7 @@ let questions = [
     {
     numb: 1,
     question: "Quel saint accueille le visiteur ?",
-    answer: "Marie Madeleine",
+    answer: "3) Marie Madeleine",
     options: [
       "1) Sainte Radegonde",
       "2) Sainte Sophie",
