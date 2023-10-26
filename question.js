@@ -5,10 +5,10 @@ let questions = [
     question: "Quel saint accueille le visiteur ?",
     answer: "Marie Madeleine",
     options: [
-      "Sainte Radegonde",
-      "Sainte Sophie",
-      "Marie Madeleine",
-      "Sainte Marguerite"
+      "1) Sainte Radegonde",
+      "2) Sainte Sophie",
+      "3) Marie Madeleine",
+      "4) Sainte Marguerite"
     ]
   },
    
