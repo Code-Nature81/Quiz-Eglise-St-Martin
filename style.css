@@ -374,6 +374,17 @@ footer button.show{
 .buttons button.restart{
     color: #fff;
     background: #008b8b;
+    text-align: center;
+}
+
+.result_box .buttons button.restart{
+    color: #00408500;
+    background: #008b8b00;
+    border: #008b8b00;
+    
+}
+.result_box .buttons button.restart:hover{
+    background: #008b8b00;
 }
 
 .buttons button.restart:hover{
