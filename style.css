@@ -416,9 +416,8 @@ footer button.show{
 
     body{
         
-        /*width: 100%;*/
-        background-size: cover;
-        background: #cdc981;
+    background: url(pexels-pixabay-235985.jpg);
+    background-size: cover no-repeat;
     }
 
     .info_box{
