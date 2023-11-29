@@ -8,14 +8,14 @@
 }
 
 body{
-    background: url(Buste.jpg) no-repeat;
+    background: url(pexels-pixabay-235985.jpg) no-repeat;
     background-size: cover;
     /*background: #007bff;*/
 }
 
 ::selection{
     color: #fff;
-    background: #008b8b;
+    background: #cdc981;
 }
 
 .start_btn,
@@ -42,7 +42,7 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #008b8b;
+    color: #cdc981;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -52,7 +52,7 @@ body{
 }
 .start_btn button:hover{
     color: #fff;
-    background: #008b8b;
+    background: #cdc981;
 
 
 }
@@ -90,7 +90,7 @@ body{
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #008b8b;
+    color: #cdc981;
 }
 .info_box .buttons{
     height: 60px;
@@ -111,7 +111,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #008b8b;
+    border: 1px solid #cdc981;
     transition: all 0.3s ease;
 }
 
@@ -135,7 +135,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px 1px #cdc981(0,0,0,0.1);
 }
 
 .quiz_box header .title{
@@ -144,7 +144,7 @@ body{
 }
 
 .quiz_box header .timer{
-    color: #004085;
+    color: #cdc981;
     background: #cce5ff;
     border: 1px solid #b8daff;
     height: 45px;
@@ -171,7 +171,7 @@ body{
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40;
+    background: #cdc981;
     border: 1px solid #343a40;
     user-select: none;
 }
@@ -181,7 +181,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #008b8b;
+    background: #cdc981;
 }
 
 section{
@@ -201,7 +201,7 @@ section .option_list{
 
 section .option_list .option{
     background: aliceblue;
-    border: 1px solid #36c8c8;
+    border: 1px solid #cdc981;
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
@@ -218,13 +218,13 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    color: #ffffff;
+    background: #cdc981;
+    border: 1px solid #cdc981;
 }
 
 section .option_list .option.correct{
-    color: #155724;
+    color: rgb(255, 255, 255);
     background: #d4edda;
     border: 1px solid #c3e6cb;
 }
@@ -291,12 +291,12 @@ footer button{
     font-size: 18px;
     font-weight: 400;
     cursor: pointer;
-    border: none;
+    border: none; 
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #008b8b;
-    border: 1px solid #008b8b;
+    background: #cdc981;
+    border: 1px solid #cdc981;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -305,7 +305,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #008b8b;
+    background: #cdc981;
 }
 
 footer button.show{
@@ -331,7 +331,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #008b8b;
+    color: #cdc981;
     margin-bottom: 10px;
 }
 
@@ -367,13 +367,13 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #008b8b;
+    border: 1px solid #cdc981;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart{
     color: #fff;
-    background: #008b8b;
+    background: #cdc981;
     text-align: center;
 }
 
@@ -384,22 +384,32 @@ footer button.show{
     
 }
 .result_box .buttons button.restart:hover{
-    background: #008b8b00;
+    background: #cdc981;
 }
 
 .buttons button.restart:hover{
-    background: #008b8b;
+    background: #cdc981;
 }
 
 
 .buttons button.quit{
-    color: #008b8b;
+    color: #cdc981;
     background: #fff;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #008b8b;
+    background: #cdc981;
+}
+
+.buttons button.savoir{
+    color: #cdc981;
+    background: #fff;
+}
+
+.buttons button.savoir:hover{
+    color: #fff;
+    background: #cdc981;
 }
 
 @media only screen and (max-width: 768px){
@@ -408,7 +418,7 @@ footer button.show{
         
         /*width: 100%;*/
         background-size: cover;
-        background: #008b8b;
+        background: #cdc981;
     }
 
     .info_box{
